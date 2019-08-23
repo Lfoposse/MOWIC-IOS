@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FRABK.TTF">
+            <string>FranklinGothic-Book</string>
+        </array>
+        <array key="FRADM.TTF">
+            <string>FranklinGothic-Demi</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MoWIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-violetAsset 1" translatesAutoresizingMaskIntoConstraints="NO" id="D8L-LM-nDn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME TO MOWIC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzw-lO-hjJ">
+                                <rect key="frame" x="107" y="94" width="201" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contour-smsAsset 8" translatesAutoresizingMaskIntoConstraints="NO" id="11t-lh-AEe">
+                                <rect key="frame" x="91" y="207" width="220" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-sms-bleuAsset 3" translatesAutoresizingMaskIntoConstraints="NO" id="xC7-qe-MIE">
+                                <rect key="frame" x="164" y="285" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-sms-blancAsset 2" translatesAutoresizingMaskIntoConstraints="NO" id="4in-Lb-q36">
+                                <rect key="frame" x="151" y="279" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It's mobile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgf-BP-DNo">
+                                <rect key="frame" x="173" y="148" width="69" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FranklinGothic-Book" family="Franklin Gothic Book" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-bleuAsset 6" translatesAutoresizingMaskIntoConstraints="NO" id="Idx-Gd-gpQ">
+                                <rect key="frame" x="0.0" y="446" width="414" height="424"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-bleueAsset 7" translatesAutoresizingMaskIntoConstraints="NO" id="pMK-sc-16m">
+                                <rect key="frame" x="53" y="443" width="240" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-blancAsset 5" translatesAutoresizingMaskIntoConstraints="NO" id="mzM-V9-dpb">
+                                <rect key="frame" x="0.0" y="445" width="414" height="291"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b03-3d-agK">
+                                <rect key="frame" x="117" y="560" width="180" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="19"/>
+                                <state key="normal" title="SIGN UP" backgroundImage="rectangle-arrondi-violetAsset 4"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCe-jw-CRa">
+                                <rect key="frame" x="133" y="674" width="149" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FranklinGothic-Demi" family="Franklin Gothic Demi" pointSize="18"/>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" red="0.34427693486213684" green="0.827259361743927" blue="0.90793228149414062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Already a member?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFG-8y-rQL">
+                                <rect key="frame" x="155" y="643" width="107" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FranklinGothic-Book" family="Franklin Gothic Book" pointSize="13"/>
+                                <color key="textColor" red="0.58032697439193726" green="0.58042973279953003" blue="0.58032047748565674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="international call" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INm-0A-RGv">
+                                <rect key="frame" x="151" y="166" width="113" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="FranklinGothic-Book" family="Franklin Gothic Book" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D8L-LM-nDn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ipt-Md-sEq"/>
+                            <constraint firstItem="D8L-LM-nDn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NZs-4m-yC2"/>
+                            <constraint firstAttribute="trailing" secondItem="D8L-LM-nDn" secondAttribute="trailing" id="XzJ-7T-fk6"/>
+                            <constraint firstAttribute="bottom" secondItem="D8L-LM-nDn" secondAttribute="bottom" id="zPf-gl-h99"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.35869565217392"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background-blancAsset 5" width="750" height="519.33331298828125"/>
+        <image name="background-bleuAsset 6" width="749.66668701171875" height="774.33331298828125"/>
+        <image name="background-bleueAsset 7" width="750.33331298828125" height="216.66667175292969"/>
+        <image name="background-violetAsset 1" width="750.66668701171875" height="1334.6666259765625"/>
+        <image name="contour-smsAsset 8" width="401.33334350585938" height="218.66667175292969"/>
+        <image name="icon-sms-blancAsset 2" width="148" height="140"/>
+        <image name="icon-sms-bleuAsset 3" width="148.33332824707031" height="140.66667175292969"/>
+        <image name="rectangle-arrondi-violetAsset 4" width="319" height="106"/>
+    </resources>
+</document>

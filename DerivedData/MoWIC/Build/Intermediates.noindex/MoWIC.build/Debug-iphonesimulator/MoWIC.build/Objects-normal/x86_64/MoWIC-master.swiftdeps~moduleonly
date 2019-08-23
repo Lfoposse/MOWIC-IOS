@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "474d6954ccbef4775071d35c543e6a63"
+build_time: [1566557320, 534788000]
+inputs:
+  "/Users/macbookpro/Documents/Projects/IOS/MoWIC/MoWIC/ViewController.swift": [1566473406, 888599030]
+  "/Users/macbookpro/Documents/Projects/IOS/MoWIC/MoWIC/AppDelegate.swift": [1566473406, 874163217]
